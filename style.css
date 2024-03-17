@@ -1,0 +1,174 @@
+/* #FDA638 */
+/* #151718 */
+/* #161616 */
+/* /#41301C */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    height: 100vh;
+}
+.header{
+ width: 100%;
+ margin: 0 auto;
+ background-color:#151718 ;
+ height: 80px;
+ display: flex;
+ align-items: center;
+}
+
+.header>nav{
+    width: 95%;
+    margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.header>nav>ul{
+
+    display: flex;
+}
+
+.header>nav>ul>li{
+
+list-style: none;
+margin-left: 25px;
+font-size: 1.1rem;
+
+
+}
+
+
+.header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+     
+}
+
+.header>nav>ul>li>a:hover{
+    color: #FDA638;
+}
+
+.humbergermenu>i{
+
+    color: #FDA638;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.btn>button{
+
+    background-color: #151718;
+    border: 1px solid gray;
+    color: white;
+    padding: 13px;
+    width: 120px;
+    border-radius:10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn>button:hover{
+    background-color: #FDA638;
+    border: 1px solid  #151718;
+   
+}
+
+.hero-section{
+
+    color: white;
+background-color: #161616;
+display: flex;
+height: 100vh;
+
+}
+
+.hero-info{
+
+    width: 50%;
+    margin-left: 20px;
+
+}
+.hero-heading>h1{
+
+    font-size: 4.5rem;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+.hero-para>p{
+ font-size: 1.3rem;
+ margin-bottom: 40px;
+}
+.hero-btn{
+    margin-bottom: 100px;
+}
+
+.hero-btn> button{
+    padding: 15px;
+    border: none;
+    width: 140px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+
+.hero-btn> button:first-child{
+    background-color: #FDA638;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.hero-btn> button:first-child:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.hero-btn> button:last-child{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.hero-btn> button:last-child:hover{
+
+    background-color: #FDA638;
+    border: 1px solid #FDA638;
+    color: black;
+}
+
+.hero-anlytics{
+    display: flex;
+   width: 350px;
+   justify-content: space-between;
+   
+}
+
+.hero-anlytics>div>h6{
+
+
+    font-size: 1.6rem;
+    color: #FDA638;
+}
+
+.hero-anlytics>div>p{
+    font-size: 1.4rem;
+}
+
+.hero-img{
+    position: relative;
+    
+}
+
+.hero-img>img{
+    position: absolute;
+    bottom: -5px;
+    left: -80px;
+}
