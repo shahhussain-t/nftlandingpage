@@ -125,6 +125,7 @@ height: 100vh;
     background-color: #FDA638;
     display: inline-block;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .hero-btn> button:first-child:hover{
@@ -136,12 +137,14 @@ height: 100vh;
     background-color: transparent;
     border: 1px solid white;
     color: white;
+  
 }
 .hero-btn> button:last-child:hover{
 
     background-color: #FDA638;
     border: 1px solid #FDA638;
     color: black;
+    
 }
 
 .hero-anlytics{
@@ -170,5 +173,5 @@ height: 100vh;
 .hero-img>img{
     position: absolute;
     bottom: -5px;
-    left: -80px;
+    left: 9.6rem;
 }
